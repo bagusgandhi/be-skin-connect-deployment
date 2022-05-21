@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config
+data:
+  node-env: "env for example: development | production"
+  port: "port app example: 3000"
+  mongo-uri: "mongodb URI"
+  mongo-password: "mongodb password"
+  jwt-secret: "32character of base64 JWT_SECRET"
+  jwt-expires-in: "fro example: 90d"
